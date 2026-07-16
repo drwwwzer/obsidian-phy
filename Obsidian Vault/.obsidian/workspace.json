@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solid State/Density of Energy States and Ferminian facet.md",
+                "file": "Surface catalysis/1.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Density of Energy States and Ferminian facet"
+              "title": "1"
             }
           }
         ],
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solid State/Density of Energy States and Ferminian facet.md",
+                "file": "Surface catalysis/1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Density of Energy States and Ferminian facet"
+              "title": "1"
             }
           }
         ]
@@ -188,12 +188,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Solid State/Density of Energy States and Ferminian facet.md",
+                "file": "Surface catalysis/1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Density of Energy States and Ferminian facet 的出链列表"
+              "title": "1 的出链列表"
             }
           }
         ],
@@ -201,7 +201,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,9 +219,14 @@
   },
   "active": "8cf441ae3df21265",
   "lastOpenFiles": [
+    "Pasted image 20260716173537.png",
+    "未命名 1.canvas",
+    "Surface catalysis/1.md",
+    "未命名.canvas",
+    "Solid State/Density of Energy States and Ferminian facet.md",
+    "Surface catalysis",
     "Pasted image 20260716161858.png",
     "Solid State/k-space.md",
-    "Solid State/Density of Energy States and Ferminian facet.md",
     "Solid State/Band Theory.md",
     "Solid State/经典晶体结构.md",
     "Solid State/Geometric symmetry behind Band Theory.md",
@@ -251,7 +257,6 @@
     "Notes  of Quantum Mechanic 2/problems loading to be solved.md",
     "Notes  of Quantum Mechanic 2/Less than Cohen 1/general methods of  solving 1-D wave equations/Analysis method.md",
     "Notes  of Quantum Mechanic 2.md",
-    "Notes  of Quantum Mechanic 2/Less than Cohen 1/#Index.md",
     "Solid State",
     "Notes  of Quantum Mechanic 2/Less than Cohen 1/general methods of  solving 1-D wave equations",
     "RM_client",
@@ -260,7 +265,6 @@
     "Machine Learning",
     "Literature",
     "Notes of Morden Machanic",
-    "Topological Order",
-    "Something about Linear Algebra"
+    "Topological Order"
   ]
 }
