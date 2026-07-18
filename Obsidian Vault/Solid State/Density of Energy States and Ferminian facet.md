@@ -20,4 +20,3 @@ $$N(E)=\int {\frac{V}{(2\pi)^3}}* \frac{dS}{\nabla_{k} E}$$
 > 对于自由电子有：$$E(k)=\frac{h^2k^2}{2m}=\frac{h^2}{2m}k^2$$
 > 于是第一，我们有等能面半径：k=$\sqrt{\frac{2mE}{h^2}}$
 > 
-![[Pasted image 20260716161858.png]]
