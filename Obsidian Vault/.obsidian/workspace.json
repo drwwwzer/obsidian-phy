@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solid State/Density of Energy States and Ferminian facet.md",
+                "file": "Solid State/Band Theory.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Density of Energy States and Ferminian facet"
+              "title": "Band Theory"
             }
           }
         ],
@@ -218,12 +218,12 @@
   },
   "active": "8cf441ae3df21265",
   "lastOpenFiles": [
+    "Solid State/Band Theory.md",
+    "Solid State/Geometric symmetry behind Band Theory.md",
+    "Solid State/Density of Energy States and Ferminian facet.md",
     "Pasted image 20260716161858.png",
     "Solid State/k-space.md",
-    "Solid State/Density of Energy States and Ferminian facet.md",
-    "Solid State/Band Theory.md",
     "Solid State/经典晶体结构.md",
-    "Solid State/Geometric symmetry behind Band Theory.md",
     "Python，以及其他.md",
     "欢迎.md",
     "Pasted image 20260418215047.png",
