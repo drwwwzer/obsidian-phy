@@ -52,9 +52,17 @@
 
  建立在不同粒子系统的微观状态数之上，我们希望得到微观状态最多的分布情况（同时根据等概率原理，这种分布情况出现的情况也是可能性最大的。），我们引入变分法来取得这种最概然分布。
 
+首先有一个近似等式：$\ln m! = m(\ln m -1)$，其成立条件是m>>1。
 笔记本篇中，我们只详细记录Boltzmann系统的最概然分布推导，玻色系统与费米系统另外记录：
-> [!info] Title
-> Contents
+> [!info] Boltzmann
+> 在实际引入变分法之前，我们首先把微观状态数的表达式做简化：
+> $$\Omega=\frac{N！}{\prod_{i} a_{i}!}\prod_{i}\omega_{_{i}}^{a_{i}}$$
+> $$\ln \Omega=\ln N!+\sum_{i}a_{i}\ln\omega_{i}-\sum_{i}\ln a_{i}!$$
+>  $$\ln \Omega=N(\ln N-1)+\sum_{i} a_{i}\ln \omega_{i}-\sum_{i}a_{i}(\ln a_{i}-1)$$
+>  $$\ln \Omega=N\ln N+\sum_{i}a_{i}(\ln \omega_{i})$$
+> 
+> 
+> 
 
 
 
