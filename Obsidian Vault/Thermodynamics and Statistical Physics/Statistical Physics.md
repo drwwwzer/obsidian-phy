@@ -36,7 +36,7 @@
 > 对于任意N个粒子与M个能级，每个能级的简并度为$\omega_{i}$，其中位于$\epsilon_{i}$的粒子数为$a_{i}$个，显然地，我们有条件：$$\sum_{i}a_{i}=N;\sum_{i}a_{i}\epsilon_{i}=E $$
 > 形成的粒子系统，对于几种具体的分布有：
 > 玻尔兹曼分布：
-> $$\varOmega=\frac{N！}{\sum！}$$
+> $$\varOmega=\frac{N！}{\sum_{i} a_{i}}$$
 > 玻色分布：
 > $$\Omega=$$
 > 费米分布：
