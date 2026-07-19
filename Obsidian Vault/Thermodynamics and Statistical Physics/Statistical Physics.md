@@ -59,7 +59,7 @@
 > $$\Omega=\frac{N！}{\prod_{i} a_{i}!}\prod_{i}\omega_{_{i}}^{a_{i}}$$
 > $$\ln \Omega=\ln N!+\sum_{i}a_{i}\ln\omega_{i}-\sum_{i}\ln a_{i}!$$
 >  $$\ln \Omega=N(\ln N-1)+\sum_{i} a_{i}\ln \omega_{i}-\sum_{i}a_{i}(\ln a_{i}-1)$$
->  $$\ln \Omega=N\ln N+\sum_{i}a_{i}(\ln \omega_{i})$$
+>  $$\ln \Omega=N\ln N+\sum_{i}a_{i}\left( \ln \frac{\omega_{i}}{a_{i}} \right)$$
 > 
 > 
 > 
