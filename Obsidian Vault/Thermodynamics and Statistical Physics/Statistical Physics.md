@@ -61,10 +61,27 @@
 >  $$\ln \Omega=N(\ln N-1)+\sum_{i} a_{i}\ln \omega_{i}-\sum_{i}a_{i}(\ln a_{i}-1)$$
 >  $$\ln \Omega=N\ln N+\sum_{i}a_{i}\left( \ln \frac{\omega_{i}}{a_{i}} \right)$$
 >  然后我们可以开始对$\delta a$变分法处理：
->  $$\delta \ln \Omega=-\sum_{i}\ln \frac{a_{i}}{\omega_{i}}\delta a_{i}$$
-> 
-> 
-> 
+>  令$$\delta \ln \Omega=-\sum_{i}\ln \frac{a_{i}}{\omega_{i}}\delta a_{i}=0$$
+>  同时，其中参数满足这样的条件：
+>  $$\delta N=\sum_{i}\delta a_{i}=0,\delta E=\sum_{i}\epsilon_{i}\delta a_{i}=0$$
+>  这就其实成了一个条件极值问题，我们使用拉格朗日乘子法进行处理，则有：
+>  $$\delta \ln \Omega-\alpha\delta N-\beta\delta E=-\sum_{i}\ln \frac{a_{i}}{\omega_{i}}\delta a_{i}-\alpha \sum_{i}\delta a_{i}-\beta \sum_{i}\epsilon_{i}\delta a_{i}=0$$
+>  $$-\sum_{i}\left( \ln \frac{a_{i}}{\omega_{i}}+\alpha+\beta \epsilon_{i} \right)\delta a_{i}=0$$
+>  即对于任意i情况我们都有：
+>  $$\ln \frac{a_{i}}{\omega_{i}}+\alpha+\beta \epsilon_{i}=0$$
+>  亦即：
+>  $$a_{i}=\omega_{i}e^{-\alpha-\beta \epsilon_{i}}$$
+>  其中参数再由$\delta N与\delta E$的两条件决定。
+>  然后我们必须考虑[[Ferminian and Bosenian]]，首先是二阶导确证这是最大分布而非最小分布，然后是比较$\frac{\Omega+\delta\Omega}{\Omega}$
+
+
+
+
+
+
+
+
+
 
 
 
