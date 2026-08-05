@@ -24,4 +24,9 @@ $$k=\frac{k_{B}T}{h}e^{-\Delta G_{TS}^\ominus/k_{B}T}$$
 > 在此三条假设之上，我们有TST下的核心参量，$速率常数k_{TST}$，对于基元反应，它由两个参数的乘积构成，反应体系处于过渡态的概率$P_{TS}$与反应体系从反应区域穿过过渡态区域向产物区域移动的速率$r_{c}$
 > $$k_{TST}=P_{TS}r_{c}$$
 
-由[[Quantum expression for the internal energy]]
+然后我们需要具体确认其中的两参数：
+由[[Quantum expression for the internal energy]]，我们有
+$$P_{TS}\propto e^{-E/k_{B}T}$$
+其中E由势能$V$与动能$E_{k}$构成。
+而对于反应体系穿过过渡区域的速率$r_{c}$，它被定义为穿过过渡态区域无穷小厚度区域的垂直速度（确切地讲，对于它的定义式而言，物理意义是如果分界面厚度为 δx，那么以平均速度 v⊥ 冲过来的体系，穿越该区域的频率。（但似乎主要是凑数学？））：
+$$r_{c}=\frac{v_{⊥}}{\delta x}$$
