@@ -26,6 +26,9 @@ $$\frac{\partial\rho}{\partial t}dtd\Omega$$
 $$\rho\dot{q_{i}}dtdA$$
 而对于在t+dt时刻离开体积元的代表点有：
 $$(\rho \dot{q_{i}})_{q_{i}+dq_{i}}dtdA=\left( \rho \dot{q_{i}}+\frac{\partial}{\partial q_{i}}(\rho \dot{q_{i}})dq_{i} \right)dtdA$$
-两者做差即有：
-$$$$
-
+两者做差即有在dt时间流入体积元的净代表点数：
+$$-\frac{\partial}{\partial q_{i}}(\rho \dot{q_{i}})dq_{i} dtdA=-\frac{\partial}{\partial q_{i}}(\rho \dot{q_{i}})dtd\Omega$$
+类似地，对于在dt时间内净流入任意一对平面$p_{i}$和$p_{i}+dp_{i}$的净代表点数为：
+$$-\frac{\partial}{\partial p_{i}}(\rho \dot{p_{i}})dtd\Omega$$
+分别讨论对$q_{i}$与$p_{i}$的流入之后，我们可以表示净代表点数：
+$$\frac{\partial\rho}{\partial t}dtd\Omega=-\sum_{i}[-\frac{\partial}{\partial p_{i}}(\rho \dot{p_{i}})+\frac{\partial}{\partial q_{i}}(\rho \dot{q_{i}})]dtd\Omega$$
