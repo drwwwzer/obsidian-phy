@@ -32,3 +32,13 @@ $$-\frac{\partial}{\partial q_{i}}(\rho \dot{q_{i}})dq_{i} dtdA=-\frac{\partial}
 $$-\frac{\partial}{\partial p_{i}}(\rho \dot{p_{i}})dtd\Omega$$
 分别讨论对$q_{i}$与$p_{i}$的流入之后，我们可以表示净代表点数：
 $$\frac{\partial\rho}{\partial t}dtd\Omega=-\sum_{i}[-\frac{\partial}{\partial p_{i}}(\rho \dot{p_{i}})+\frac{\partial}{\partial q_{i}}(\rho \dot{q_{i}})]dtd\Omega$$
+于是我们有：
+$$\frac{\partial\rho}{\partial t}+\sum_{i}[-\frac{\partial}{\partial p_{i}}(\rho \dot{p_{i}})+\frac{\partial}{\partial q_{i}}(\rho \dot{q_{i}})]=0$$
+由哈密顿正则方程：
+$$\begin{cases}\dot{q_{i}}=\frac{\partial H}{\partial q_{i}} \\
+\dot{p_{i}}=\frac{\partial H}{\partial q_{i}}
+
+\end{cases},即 \frac{\partial\dot{q_{i}}}{\partial p_{i}}+\frac{\partial\dot{p_{i}}}{\partial q_{i}}=0$$
+因此有
+$$\frac{\partial\rho}{\partial t}+\sum_{i}\left( \frac{\partial\rho}{\partial q_{i}}\dot{q_{i}}+\frac{\partial\rho}{\partial p_{i}}\dot{p_{i}} \right)=0$$
+将它代入，则有最终结果，即刘维尔定理得证。
