@@ -19,6 +19,13 @@ $$\frac{d\rho}{dt}=\frac{\partial\rho}{\partial t}+\sum_{i}\left( \frac{\partial
 $$\frac{d\rho}{dt}=0$$
 
 我们的基本思路是这样的：
-对于任意维度（如$2f$）的相空间与其中的体积元$d\Omega$在时刻t，在$d\Omega$内的代表点数为$\rho d\Omega$，在经过时间dt之后，有些代表点走出了这个体积元，另有些代表点走进了这个体积元，使得在这个固定的体积元中的代表点书变为$\left( \rho+ \frac{\partial\rho}{\partial t} dt\right)d\Omega$两者
-
+对于任意维度（如$2f$）的相空间与其中的体积元$d\Omega$在时刻t，在$d\Omega$内的代表点数为$\rho d\Omega$，在经过时间dt之后，有些代表点走出了这个体积元，另有些代表点走进了这个体积元，使得在这个固定的体积元中的代表点数变为$\left( \rho+ \frac{\partial\rho}{\partial t} dt\right)d\Omega$，前后相减，则有经过dt时间后$d\Omega$内代表点的增加数为：
+$$\frac{\partial\rho}{\partial t}dtd\Omega$$
+然后我们需要考察代表点是如何通过所选界面从而能够形成代表点的数量变化：
+代表点需要通过这2f对边界平面才能走入或离开体积元$d\Omega$，于是我们分别计算在t时刻进入体积元的代表点数，它们必须位于以dA为底，以$\dot{q}，\dot{p}$为轴线，以$\dot{q_{i}}dt$为高的柱体内，亦即其内代表点数为：
+$$\rho\dot{q_{i}}dtdA$$
+而对于在t+dt时刻离开体积元的代表点有：
+$$(\rho \dot{q_{i}})_{q_{i}+dq_{i}}dtdA=\left( \rho \dot{q_{i}}+\frac{\partial}{\partial q_{i}}(\rho \dot{q_{i}})dq_{i} \right)dtdA$$
+两者做差即有：
+$$$$
 
