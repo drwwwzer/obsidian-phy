@@ -42,3 +42,33 @@ also,the heuristic method also has its reserval.And its the source of part of th
 
 > [!NOTE] A* method
 > what is a A*method?
+> ![[Pasted image 20260812191957.png]]
+> ![[Pasted image 20260812192106.png]]
+
+And After that,we are looking forward to generalize a special type of  algorithm between two components named Minimax
+
+> [!info] Minimax
+> The main idea of it is to turn the wins or losts into number counts:![[Pasted image 20260812193402.png]]
+> the X player means the Max count player,
+> and the O player means the Min count player
+what do we need in the detailed situation:![[Pasted image 20260812193841.png]]
+but after that,we need to check how can we exactly determine the process by correctly set the functions.We can take the tic-tac-toe game as an example. 
+The players function:
+![[Pasted image 20260812194348.png]]
+and then the actions function:
+![[Pasted image 20260812194521.png]]
+but how can it choose the choice?Through the Result function:
+![[Pasted image 20260812194636.png]]
+The the last ,we need a terminal to assign the result:![[Pasted image 20260812194754.png]]
+Thus,we have Utility:
+![[Pasted image 20260812194850.png]]
+![[Pasted image 20260812195641.png]]
+totally,it begins with![[Pasted image 20260812200033.png]]
+and wirh concretelizing,it may become![[Pasted image 20260812200426.png]]
+The basic solution is![[Pasted image 20260812201138.png]]
+![[Pasted image 20260812201238.png]]
+![[Pasted image 20260812201253.png]]
+
+And the MiniMax is called
+Alpha-Beta Pruning:
+Alpha-Beta means the best and the worst choice exist at the same time;The pruning means there is a deep big long deep search tree.
