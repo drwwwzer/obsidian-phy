@@ -14,6 +14,9 @@ $$\Omega \propto \left( \frac{1}{p} \right)^N$$
 $$S=k_{B}\ln \Omega=k_{B}\ln(const*p^{-N})$$
 即：
 $$S=const'-Nk_{B}\ln p$$
+同时注意，此处将const'作为常数化入全式即有：
+$$S=-Nk_{B}T\ln\left( \frac{p}{p^\circ} \right)$$
+其中$p^\circ可根据克拉珀龙方程表示$
 于是对于气体，具体化的气体熵变有结果：
 $$\Delta S_{12}=k_{B}\ln \frac{p_{2}}{p_{1}}$$
 类似地，对于理想稀溶液也有这样的推导过程：

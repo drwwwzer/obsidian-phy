@@ -47,7 +47,13 @@ $$A_{(g)}+*\to A^*$$
 其中 * 表示可供吸附的位点。
 那么接下来我们需要考虑的是这些分布的不同将如何为构型熵做贡献。
 对于任意$N$个吸附质与$N_{0}$个可供吸附的表面点位而言，依赖于覆盖比$\theta=\frac{N}{N_{0}}$
- 而具体到常见的吸附表面而言，我们通常使用自由点位的覆盖比$\theta_{*}=$
+ 而具体到常见的吸附表面而言，我们通常使用自由点位的覆盖比$\theta_{*}$
+ 具体而言，通过对$吸附状态$下的平衡条件：
+ $$\Delta G=\Delta G^\circ-T\Delta S=\Delta G^\circ-\left( S^{conf}_{ads}-\left( -k_{B}\ln \frac{p}{p^\circ} \right) \right)=0$$
+ 我们容易得到$$\frac{\theta_{A}}{\theta_{*}}=K_{A}\left( \frac{p_{A}}{p_{^\circ}} \right)$$
+ 又以简便记法将$\frac{p_{A}}{p^\circ}记为p_{A}$，我们有最终的整齐表达式：
+ $$\theta_{A}=K_{A}p_{A}\theta_{*}$$
+ 其中$\theta_{A}$是占据了表面反应点位的A分子的覆盖比。
 
 
 
