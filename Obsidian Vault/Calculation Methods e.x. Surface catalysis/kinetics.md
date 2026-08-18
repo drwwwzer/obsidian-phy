@@ -10,5 +10,7 @@ $$r_{desorption}=k_{-}\theta_{*}$$
 $$r_{adsorption}=r_{desorption}$$
 代入则能表示清楚$K_{ads}与k_{+},k_{-}$的关系：
 $$K_{ads}=\frac{k_{+}}{k_{-}}$$
+ 
+
 
 
