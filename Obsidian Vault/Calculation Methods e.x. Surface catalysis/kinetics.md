@@ -10,6 +10,10 @@ $$r_{desorption}=k_{-}\theta_{*}$$
 $$r_{adsorption}=r_{desorption}$$
 代入则能表示清楚$K_{ads}与k_{+},k_{-}$的关系：
 $$K_{ads}=\frac{k_{+}}{k_{-}}$$
+于是有：
+$$K=e^{-\Delta G^\circ/k_{B}T}=\frac{\frac{k_{B}T}{h}e^{-(G_{+TS}^{\circ}-G_{I}^{\circ})/k_{B}T}} {\frac{k_{B}T}{h}e^{-(G_{-TS}^\circ-G_{F}^\circ)/k_{B}T}}=e^{-(G_{F}^\circ-G_{I}^\circ)/k_{B}T}$$
+注意其中最后一个等号的成立条件，它意味着+-两态指示的反应经过同样的过渡态。在无其他条件的情况下，这由力学系统的时间反演对成型给出
+
  
 
 
