@@ -27,20 +27,22 @@ $$\gamma_{ads}=\frac{\theta_{A}}{p_{A}\theta_{*}}K_{ads}^{-1}$$
 
 
 > [!info] 具体过程
-> - 扩散过程（Diffussion reactioni）
+> - 吸附/脱附过程(adsorption/desorption reaction)
+> - 扩散过程（Diffussion reaction）
 > - 耦合/断裂过程(coupling/scission reaction)
-> - 结合/解离过程(association reaction)
 
-
-
-
-
-然后我们具体地落到某一吸附/脱附过程来讲：
+我们具体地落到某一$吸附/脱附过程$来讲：
 $$2A^*\to A_{2}+2^*$$
 我们将有一个速率表达式：
 $$r_{ass}=k_{ass}\theta_{A}^2$$
 其中覆盖比$\theta^2$实际上具有这样的物理意义：这表示了找到两个相接的空点位的概率。而$k_{ass}$则直接表示了调节其他影响因素的系数封装。
 
+然后我们讨论常常发生在一个吸附位点与另一个相邻的吸附位点之间的$扩散反应$：
+$$A^*+* \to * +A^*$$
+它的速率常数表达式显然写为：
+$$r_{dif}\theta_{A}\theta_{*}$$
+然后对于一个耦合/断裂反应：
+$$A^*+B^*$$
 
 
 
