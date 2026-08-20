@@ -27,7 +27,9 @@ $$\gamma_{ads}=\frac{\theta_{A}}{p_{A}\theta_{*}}K_{ads}^{-1}$$
 
 
 > [!info] 具体过程
-> 
+> - 扩散过程（Diffussion reactioni）
+> - 耦合/断裂过程(coupling/scission reaction)
+> - 结合/解离过程(association reaction)
 
 
 
