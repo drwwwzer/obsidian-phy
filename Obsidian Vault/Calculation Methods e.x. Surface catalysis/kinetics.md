@@ -40,9 +40,26 @@ $$r_{ass}=k_{ass}\theta_{A}^2$$
 然后我们讨论常常发生在一个吸附位点与另一个相邻的吸附位点之间的$扩散反应$：
 $$A^*+* \to * +A^*$$
 它的速率常数表达式显然写为：
-$$r_{dif}\theta_{A}\theta_{*}$$
+$$r_{dif}=k_{dif}\theta_{A}\theta_{*}$$
 然后对于一个耦合/断裂反应：
-$$A^*+B^*$$
+$$A^*+B^*\leftrightarrow AB^* +*$$
+它的速率常数表达式有：
+$$r_{coupling}=k_{coupling}\theta_{A}\theta_{B}$$
+$$r_{scission}=k_{scission}\theta_{AB}\theta_{*}$$
+
+最后对于歧化反应：
+$$AB^*+C^*\leftrightarrow 
+A^*+BC^*$$
+有：
+$$r_{disorption}=k_{disorption}\theta_{AB}\theta_{C}$$
+
+
+
+
+> [!info] 一个基元反应步的表观活化能
+> 对于A与活化能$E_{A}$都与温度独立的情况，我们可以对$r=Ae^{-E_{A}/k_{B}T}$写出
+> $$E^{apparent}_{A}=-\frac{\partial(\ln r)}{\partial\left( \frac{1}{k_{B}T} \right)}$$
+
 
 
 
