@@ -59,6 +59,10 @@ $$r_{disorption}=k_{disorption}\theta_{AB}\theta_{C}$$
 > [!info] 一个基元反应步的表观活化能
 > 对于A与活化能$E_{A}$都与温度独立的情况，我们可以对$r=Ae^{-E_{A}/k_{B}T}$写出
 > $$E^{apparent}_{A}=-\frac{\partial(\ln r)}{\partial\left( \frac{1}{k_{B}T} \right)}$$
+> 然后由于随温度变化时对覆盖比的定量控制也十分困难，所以我们更近一步讨论：
+> $$E^{apparent}_{A}=-\frac{\partial(\ln r)}{\partial\left( \frac{1}{k_{B}T} \right)}=-\frac{\partial(\ln k_{disorp}+\ln \theta_{AB}+\ln \theta _{C})}{\partial\left( \frac{1}{k_{B}T} \right)}$$
+> 而如果我们近似地采取一般的速率常数分析,$k_{disprop}=A^{-E_{A}/k_{B}T}$：
+> $$$E^{apparent}_{A}=-\frac{\partial(\ln k_{disorp}+\ln \theta_{AB}+\ln \theta _{C})}{\partial\left( \frac{1}{k_{B}T} \right)}=E_{A}-\frac{\partial(\ln \theta_{AB}+\ln \theta _{C})}{\partial\left( \frac{1}{k_{B}T} \right)}$$
 
 
 
