@@ -74,3 +74,4 @@ $$r_{disorption}=k_{disorption}\theta_{AB}\theta_{C}$$
 
 
 
+ 
