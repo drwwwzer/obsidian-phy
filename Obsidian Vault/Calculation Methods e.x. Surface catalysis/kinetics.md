@@ -68,6 +68,7 @@ $$r_{disorption}=k_{disorption}\theta_{AB}\theta_{C}$$
 > $$\theta_{AB}\approx K_{ads,AB},\theta_{C}\approx K_{ads,AB}$$
 > 于是表观活化能表示为：
 > $$E_{A}^{apparent}\approx E_{A}+E_{ads,AB}+E_{ads,C}$$
+> 
 
 
 
