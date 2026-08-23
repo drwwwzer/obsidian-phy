@@ -63,6 +63,11 @@ $$r_{disorption}=k_{disorption}\theta_{AB}\theta_{C}$$
 > $$E^{apparent}_{A}=-\frac{\partial(\ln r)}{\partial\left( \frac{1}{k_{B}T} \right)}=-\frac{\partial(\ln k_{disorp}+\ln \theta_{AB}+\ln \theta _{C})}{\partial\left( \frac{1}{k_{B}T} \right)}$$
 > 而如果我们近似地采取一般的速率常数分析,$k_{disprop}=A^{-E_{A}/k_{B}T}$：
 > $$$E^{apparent}_{A}=-\frac{\partial(\ln k_{disorp}+\ln \theta_{AB}+\ln \theta _{C})}{\partial\left( \frac{1}{k_{B}T} \right)}=E_{A}-\frac{\partial(\ln \theta_{AB}+\ln \theta _{C})}{\partial\left( \frac{1}{k_{B}T} \right)}$$
+> 根据以上推进(对覆盖比的定量控制十分困难+实验数据对比)，我们会发现计算得出的表观活化能相较于实际的表观活化能垒有一定区别。
+> 另外如此，当覆盖比$\theta_{AB}与$$\theta_{C}$趋近于1，也因此它们不剧烈地随温度的变化而变化的情况下，这样的修正会趋近于0。但如果相反，它们极小，同时体系在气相达成平衡，那么有如下结果：
+> $$\theta_{AB}\approx K_{ads,AB},\theta_{C}\approx K_{ads,AB}$$
+> 于是表观活化能表示为：
+> $$E_{A}^{apparent}\approx E_{A}+E_{ads,AB}+E_{ads,C}$$
 
 
 
