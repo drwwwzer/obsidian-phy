@@ -85,6 +85,16 @@ $$R_{2}=r_{2}-r_{-2}=k_{2}p_{B}\theta_{A}-k_{-2}p_{AB}\theta_{*}$$
 $$\frac{\partial\theta_{A}}{\partial t}=2R_{1}-R_{2}=2k_{1}p_{A_{2}}\theta_{*}^2-2_{k-1}\theta_{A}^2-k_{2}p_{B}\theta_{A}+k_{-2}p_{AB}\theta_{*}$$
 当然不要忘记：
 $$\sum_{i}\theta_{i}=1$$
+同时注意贯穿全文大部分情况的$稳态近似$
+$$\frac{\partial\theta_{i}}{\partial t}=0,\ \ \ for\ all\ i$$
+这个近似主要效果其实是将一系列非线性微分方程变为一个与时间无关的代数求根问题。
+由稳态近似、$\sum_{i}\theta_{i}=1$、与偏微分方程有：
+$$2k_{1}p_{A_{2}}(1-\theta_{A})^2-2k_{-1}\theta_{A}^2-k_{2}p_{B}\theta_{A}+k_{-2}p_{AB}(1-\theta_{A})=0$$
+
+
+
+
+
 
 
 
