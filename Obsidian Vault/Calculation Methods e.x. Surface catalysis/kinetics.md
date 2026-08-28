@@ -91,17 +91,3 @@ $$\frac{\partial\theta_{i}}{\partial t}=0,\ \ \ for\ all\ i$$
 由稳态近似、$\sum_{i}\theta_{i}=1$、与偏微分方程有：
 $$2k_{1}p_{A_{2}}(1-\theta_{A})^2-2k_{-1}\theta_{A}^2-k_{2}p_{B}\theta_{A}+k_{-2}p_{AB}(1-\theta_{A})=0$$
 
-
-
-
-
-
-
-
-
-
- 
-
-
-
- 
