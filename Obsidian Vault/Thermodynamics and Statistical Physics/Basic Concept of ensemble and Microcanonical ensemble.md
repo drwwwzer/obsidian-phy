@@ -17,6 +17,6 @@ $$\overline{B}=\int B\rho(q,p,t)d\Omega$$
 
 根据前述的所有讨论，我们观察到力学规律与统计规律的密切关系，但它们究竟能追溯到怎样根本的地方？
 > [!info] 力学规律与统计规律 
-> - [[Ergodic hypothesis]]
+> - [[Ergodic hypothesis and so on]]
 > - 邓煜
 
