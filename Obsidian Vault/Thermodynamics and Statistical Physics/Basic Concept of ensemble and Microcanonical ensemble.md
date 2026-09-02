@@ -37,7 +37,25 @@ $$S=k\ln \Omega$$
 > [!warning] 
 > 此处$成正比$仅只是基于物理直觉的推断否？请验证之
 
+
+类似地，对于更普适的体系，$A_{1},A_{2}$间不仅可以交换能量，而且可以改变体积和交换粒子，我们有：
+
+$$\left[ \frac{\partial\ln\Omega_{1}(E_{1})}{\partial E_{1}} \right]_{N_{1},V_{1}}=\left[ \frac{\partial\ln\Omega_{2}(E_{2})}{\partial E_{2}} \right]_{N_{2},V_{2}}$$
+$$\left[ \frac{\partial\ln\Omega_{1}(V_{1})}{\partial V_{1}} \right]_{N_{1},E_{1}}=\left[ \frac{\partial\ln\Omega_{2}(V_{2})}{\partial V_{2}} \right]_{N_{2},E_{2}}$$
+$$\left[ \frac{\partial\ln\Omega_{1}(N_{1})}{\partial N_{1}} \right]_{E_{1},V_{1}}=\left[ \frac{\partial\ln\Omega_{2}(N_{2})}{\partial N_{2}} \right]_{E_{2},V_{2}}$$
+简单地定义：
+$$\gamma=\left[ \frac{\partial\ln\Omega_{}(N,E,V)}{\partial V_{}} \right]_{N_{},E_{}}$$
+$$\alpha=\left[ \frac{\partial\ln\Omega_{}(N_{},E,V)}{\partial N_{}} \right]_{E_{},V_{}}$$
+于是对于这样的系统，仅需比较在$N,E,V$均作为自变量的情况下，$\ln \Omega$的全微分与开系的热力学基本方程：$dS=\frac{dU}{T}+\frac{p}{T}dV-\frac{\mu}{T}dV$
+
+
+
+> [!info] solution to atomic situation
+> 
+
+
 同时更进一步，对于非平衡态系统，只需要参照上述逻辑，把它分成若干个相互有微弱相互作用友处在局域平衡的部分，玻尔兹曼关系就同样自然的得以导出。因此它也当适用于非平衡态。
+
 
 
 根据前述的所有讨论，我们观察到力学规律与统计规律的密切关系，但它们究竟能追溯到怎样根本的地方？
