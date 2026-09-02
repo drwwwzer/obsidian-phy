@@ -24,8 +24,20 @@ $$\Omega^{(0)}(E_{1},E^{(0)}-E_{1})=\Omega_{1}(E_{1})\Omega_{2}(E^{(0)}-E_{1})$$
 $$\frac{\partial\Omega ^{(0)}}{\partial E_{1}}=0$$
 代入则有：
 $$\left[ \frac{\partial\ln\Omega_{1}(E_{1})}{\partial E_{1}} \right]_{N_{1},V_{1}}=\left[ \frac{\partial\ln\Omega_{2}(E_{2})}{\partial E_{2}} \right]_{N_{2},V_{2}}$$
+对于这样的平衡量我们以$\beta$表示，则热平衡条件亦可表示为：
+$$\beta_{1}=\beta_{2}$$
+类似地，我们在热力学中有类似的结果，两个系统达到热平衡的条件为：
+$$\left( \frac{\partial S_{1}}{\partial U_{1}} \right)=\left( \frac{\partial S_{2}}{\partial U_{2}} \right)$$
+而$\left( \frac{\partial S_{}}{\partial U_{}} \right)=\frac{1}{T}$，显然$\beta与 \frac{1}{T}$成正比，所以有：
+$\beta=\frac{1}{kT}$
+进而有玻尔兹曼关系：
+$$S=k\ln \Omega$$
 
 
+> [!warning] 
+> 此处$成正比$仅只是基于物理直觉的推断否？请验证之
+
+同时更进一步，对于非平衡态系统，只需要参照上述逻辑，把它分成若干个相互有微弱相互作用友处在局域平衡的部分，玻尔兹曼关系就同样自然的得以导出。因此它也当适用于非平衡态。
 
 
 根据前述的所有讨论，我们观察到力学规律与统计规律的密切关系，但它们究竟能追溯到怎样根本的地方？
