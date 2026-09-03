@@ -61,6 +61,7 @@ $$\alpha=\left[ \frac{\partial\ln\Omega_{}(N_{},E,V)}{\partial N_{}} \right]_{E_
 >$$\Sigma(E)=\frac{V^{N}}{N!h^{3N}}\int(2mE)^{3N/2}K$$
 >另外注意K为[[3N维空间中半径为1的球体积]]
 >因此有$$\Sigma(E)=\left( \frac{V}{h^3} \right)^N \frac{\pi^{3N/2}}{N!\left( \frac{3N}{2} \right)!}$$
+>
 
 
 
