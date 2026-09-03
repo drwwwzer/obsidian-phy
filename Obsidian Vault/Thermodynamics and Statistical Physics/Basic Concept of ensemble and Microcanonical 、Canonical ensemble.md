@@ -61,8 +61,16 @@ $$\alpha=\left[ \frac{\partial\ln\Omega_{}(N_{},E,V)}{\partial N_{}} \right]_{E_
 >$$\Sigma(E)=\frac{V^{N}}{N!h^{3N}}\int(2mE)^{3N/2}K$$
 >另外注意K为[[3N维空间中半径为1的球体积]]
 >因此有$$\Sigma(E)=\left( \frac{V}{h^3} \right)^N \frac{\pi^{3N/2}}{N!\left( \frac{3N}{2} \right)!}$$
->
-
+>于是我们能够写出对于任意能量间隙$E到E+\Delta E$的微观状态数:
+>$$\Omega(E)=\frac{\partial\Sigma}{\partial E}\Delta E=\frac{3N}{2} \frac{\Delta E}{E}\Sigma(E)$$
+>然后能够得到理想气体的熵：
+>$$S=k\ln \Omega=Nk\ln\left[ \frac{V}{h^3N}\left( \frac{4\pi mE}{3N} \right)^{3/2} \right]+\frac{5}{2}Nk+k\left[ \ln\left( \frac{3N}{2} \right)+\ln\left( \frac{\Delta E}{E} \right) \right]$$
+注意此处使用了strling公式，切注意到$\lim_{ N \to \infty } \frac{\ln N}{N}$
+由此可解得$E(N,S,V)$
+亦可通过麦克斯韦关系：
+$$T=\frac{\partial E}{\partial S}=\frac{2}{3} \frac{E}{Nk} $$
+与
+$$p=-\left( \partial \frac{E}{\partial V} \right)=\frac{2}{3} \frac{E}{V}$$
 
 
 再进一步，我们来讨论建立在此基础上系统的能量涨落。
