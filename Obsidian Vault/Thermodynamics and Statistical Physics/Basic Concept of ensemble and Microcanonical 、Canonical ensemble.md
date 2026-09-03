@@ -56,10 +56,17 @@ $$\alpha=\left[ \frac{\partial\ln\Omega_{}(N_{},E,V)}{\partial N_{}} \right]_{E_
 >另外对于维度为3N的体系，它的微观状态数为：
 >$$\Omega(E)=\frac{1}{N!h^{3N}}\int_{E\leq H(q,p)\leq E+\Delta E}dq_{1}\dots dq_{3N}dp_{1}dp_{3N}$$
 >为了计算在所有能量范围下的微观状态数总量，我们先计算有限能量幅度之内的微观状态数：
->$$\Sigma(E)=\frac{1}{N!h^{3N}}\int_{H(p,q)\leq E}dq_{1}\dots dq_{3N}dp_{1}dp_{3N}=\frac{V^{N}}{N!h^{3N}}\int_{H(q,p)\leq E}dp_{1}\dots dp_{N}$$
+>$$\Sigma(E)=\frac{1}{N!h^{3N}}\int_{H(p,q)\leq E}dq_{1}\dots dq_{3N}dp_{1}dp_{3N}=\frac{V^{N}}{N!h^{3N}}\int_{H(q,p)\leq E}dp_{1}\dots dp_{3N}$$
+>做[[变量代换]]容易有：
+>$$\Sigma(E)=\frac{V^{N}}{N!h^{3N}}\int(2mE)^{3N/2}K$$
+>另外注意K为[[3N维空间中半径为1的球体积]]
+>因此有$$\Sigma(E)=\left( \frac{V}{h^3} \right)^N \frac{\pi^{3N/2}}{N!\left( \frac{3N}{2} \right)!}$$
 
 
-另外注意[[3N维空间中半径为1的球体积]]
+
+再进一步，我们来讨论建立在此基础上系统的能量涨落。
+首先，
+
 
 
 同时更进一步，对于非平衡态系统，只需要参照上述逻辑，把它分成若干个相互有微弱相互作用友处在局域平衡的部分，玻尔兹曼关系就同样自然的得以导出。因此它也当适用于非平衡态。
