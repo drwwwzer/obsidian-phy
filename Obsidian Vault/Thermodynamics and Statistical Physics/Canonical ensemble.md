@@ -16,4 +16,16 @@ $$\Omega_{r}(E^{(0)}-E_{s})$$
 $$\overline{(E-\overline{E})^2}=\sum_{s}\rho_{s}(E_{s}-\overline{E})^2=\overline{E^2}-(\overline{E})^2$$
 而对于正则分布情况又有：
 $$\frac{\partial E}{\partial \beta}=\frac{\partial}{\partial \beta} \frac{\sum_{s}E_{s}e^{-\beta E_{s}}}{\sum_{s}e^{-\beta E_{s}}}=-\frac{\sum_{s}E_{s}^2e^{-\beta E_{s}}}{\sum_{s}e^{-\beta E_{s}}}+\frac{\left( \sum_{s}E_{s}e^{-\beta E_{s}} \right)^2}{(\sum_{s}e^{-\beta E_{s}})^2}=-[\overline{E^2}-(\overline{E})^2]$$
+综合上面两式有：
+$$\overline{(E-\overline{E})^2}=-\frac{\partial\overline{E}}{\partial \beta}=kT^2 \frac{\partial\overline{E}}{\partial T}=kT^2C_{V}$$
+这将能量的自发涨落与内能随温度的变化率即热容联系在一起，由于LHS永正，故而定容热容永正，在热力学中有提及系统的平衡稳定条件正是$C_{V}$恒正。
+另外由此可以给出能量的相对涨落：
+$$\frac{\overline{(E-\overline{E})^2}}{(\overline{E})^2}=\frac{kT^2C_{V}}{(\overline{E})^2}$$
+
+
+
+> [!info] axtra tips
+> [[relation between  microcanonical and canonical ensemble]]
+> 
+
 
