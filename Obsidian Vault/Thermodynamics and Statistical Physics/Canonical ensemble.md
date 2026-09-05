@@ -12,3 +12,8 @@ $$\Omega_{r}(E^{(0)}-E_{s})$$
 其一是常见操作对于该形式的微观状态数展开保留到一阶小量（究竟为何）
 其二是可自然写清楚：$\rho_{s}\propto e^{-\beta E_{r}}$
 
+对于正则系综于是可以讨论$能量涨落$：
+$$\overline{(E-\overline{E})^2}=\sum_{s}\rho_{s}(E_{s}-\overline{E})^2=\overline{E^2}-(\overline{E})^2$$
+而对于正则分布情况又有：
+$$\frac{\partial E}{\partial \beta}=\frac{\partial}{\partial \beta} \frac{\sum_{s}E_{s}e^{-\beta E_{s}}}{\sum_{s}e^{-\beta E_{s}}}=-\frac{\sum_{s}E_{s}^2e^{-\beta E_{s}}}{\sum_{s}e^{-\beta E_{s}}}+\frac{\left( \sum_{s}E_{s}e^{-\beta E_{s}} \right)^2}{(\sum_{s}e^{-\beta E_{s}})^2}=-[\overline{E^2}-(\overline{E})^2]$$
+
