@@ -13,7 +13,7 @@ $$\Omega_{r}(E^{(0)}-E_{s})$$
 其二是可自然写清楚：
 $$\rho_{s}\propto \Omega_{r}(E^{(0)}-E_{s})\ \ \ （等概率假设）$$
 而后自然我们需要具体化$\Omega_{r}$的表达式并将它处理成容易计算的形式（strling近似），自然地我们想$\ln \Omega$，又因为$E^{(0)}\gg E_{s}$我们将$\ln \Omega_{r}(E^{0}-E_{s})$展开保留前两项：
-$$\ln \Omega_{r}(E^{0}-E_{s})=\ln$$
+$$\ln \Omega_{r}(E^{(0)}-E_{s})=\ln \Omega$$
 
 
 
