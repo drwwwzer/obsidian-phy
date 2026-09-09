@@ -10,7 +10,16 @@ $$\Omega_{r}(E^{(0)}-E_{s})$$
 同时表示系统处在状态s时的概率$\rho_{r}$有正比于微观状态数：$\rho_{r}\sim\Omega_{r}(E^{(0)}-E_{s})$
 为了具体化这样概率的表示，我们需要讨论微观状态数究竟如何表示？
 其一是常见操作对于该形式的微观状态数展开保留到一阶小量（究竟为何）
-其二是可自然写清楚：$\rho_{s}\propto e^{-\beta E_{r}}$
+其二是可自然写清楚：
+$$\rho_{s}\propto \Omega_{r}(E^{(0)}-E_{s})\ \ \ （等概率假设）$$
+而后自然我们需要具体化$\Omega_{r}$的表达式并将它处理成容易计算的形式（strling近似），自然地我们想$\ln \Omega$，又因为$E^{(0)}\gg E_{s}$我们将$\ln \Omega_{r}(E^{0}-E_{s})$展开保留前两项：
+$$\ln \Omega_{r}(E^{0}-E_{s})=\ln$$
+
+
+
+
+$\rho_{s}\propto e^{-\beta E_{r}}$
+
 
 对于正则系综于是可以讨论$能量涨落$：
 $$\overline{(E-\overline{E})^2}=\sum_{s}\rho_{s}(E_{s}-\overline{E})^2=\overline{E^2}-(\overline{E})^2$$

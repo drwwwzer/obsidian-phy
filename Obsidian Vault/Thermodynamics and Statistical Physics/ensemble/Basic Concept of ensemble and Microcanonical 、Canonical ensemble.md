@@ -73,10 +73,7 @@ $$T=\frac{\partial E}{\partial S}=\frac{2}{3} \frac{E}{Nk} $$
 $$p=-\left( \partial \frac{E}{\partial V} \right)=\frac{2}{3} \frac{E}{V}$$
 
 
-再进一步，我们来讨论建立在此基础上系统的能量涨落。
-首先，
-
-
+再进一步，我们来讨论建立在此基础上系统的能量涨落。[[Basic Concept of ensemble and Microcanonical 、Canonical ensemble]]
 
 同时更进一步，对于非平衡态系统，只需要参照上述逻辑，把它分成若干个相互有微弱相互作用友处在局域平衡的部分，玻尔兹曼关系就同样自然的得以导出。因此它也当适用于非平衡态。
 
