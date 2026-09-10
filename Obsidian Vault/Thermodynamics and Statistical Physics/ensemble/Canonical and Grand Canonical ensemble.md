@@ -41,6 +41,8 @@ $$\Omega_{r}(N^{(0)}-N_{s},E^{(0)}-E_{s})$$
 
 类似地我们可以按$N_{r}=N^{(0)},E_{r}=E^{(0)}$展开此时的微观状态数，并由此观察得到此时处在状态s时的概率:
 $$\rho \propto e^{-\alpha N_{s}-\beta E_{s}}$$，其中$\alpha=\frac{\partial \ln \Omega_{r}}{\partial N_{r}}=-\frac{\mu}{k_{B}T}$
+当然记得注意，我们也只需要这种正比关系，系数由归一化给出：
+$$\rho_{N,s}=\frac{1}{\Xi}e^{-\alpha N_{s}-\beta E_{s}}$$
 
 
 
