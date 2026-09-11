@@ -51,7 +51,17 @@ $$\Xi=\sum_{N=0}^\infty \sum_{s}e^{-\alpha N-\beta E_{s}}$$
 
 
 
+在此基础上，我们讨论由巨正则系综理论推出的热力学公式：
 
+首先是平均粒子数：
+$$\overline{N}=\frac{1}{\Xi}\sum_{N=0}^\infty \sum_{s}Ne^{-\alpha N-\beta E_{s}}=\frac{1}{\Xi}\left( -\frac{\partial}{\partial \alpha} \right)\sum_{N=0}^\infty \sum_{s}e^{-\alpha N-\beta E_{s}}=\frac{1}{\Xi}\left( -\frac{\partial}{\partial \alpha} \right)\Xi=-\frac{\partial}{\partial \alpha}\ln\Xi$$
+类似地亦有内能，亦即能量E的统计平均值：
+$$U=\overline{E}=\frac{1}{\Xi}\left( -\frac{\partial}{\partial \beta} \right)\sum_{N=0}^\infty \sum_{s}e^{-\alpha N-\beta E_{s}}=-\frac{\partial}{\partial \beta}\ln\Xi$$
+同时还有建立在能量基础上有：
+$$\overline{Y}=\frac{1}{\Xi}\sum_{N}\sum_{s} \frac{\partial E}{\partial y}e^{-\alpha N-\beta E_{s}}=\frac{1}{\Xi} \left( -\frac{1}{\beta} \frac{\partial}{\partial y} \right)\sum_{N}\sum_{s}e^{-\alpha N-\beta E_{s}}=\frac{1}{\Xi}\left( -\frac{1}{\beta} \frac{\partial}{\partial y} \right)\Xi=-\frac{1}{\beta} \frac{\partial}{\partial y}\ln\Xi$$
+然后是同时考虑热力学第一定律/能量角度与$\ln 配分函数$的微分出发：
+一方面有$\beta\left( dU-Ydy+\frac{\alpha}{\beta}d\overline{N} \right)=-\beta d\left( \frac{\partial\ln\Xi}{\partial \beta} \right)+\frac{\partial\ln\Xi}{\partial y}dy-\alpha d\left( \frac{\partial}{\partial \alpha}\ln\Xi \right)$
+另外有$\ln\Xi(\alpha,\beta,y)$，写它的全微分：$d\ln\Xi=\frac{\partial\ln\Xi}{\partial \beta}d\beta+\frac{\partial\ln\Xi}{\partial \alpha}d\alpha+\frac{\partial\ln\Xi}{\partial y}dy$
 
 
 
