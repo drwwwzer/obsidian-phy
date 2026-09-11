@@ -67,6 +67,8 @@ $$\overline{Y}=\frac{1}{\Xi}\sum_{N}\sum_{s} \frac{\partial E}{\partial y}e^{-\a
 
 
 
+
+
 > [!info] axtra tips
 > [[relation between  microcanonical and canonical ensemble]]
 > 
