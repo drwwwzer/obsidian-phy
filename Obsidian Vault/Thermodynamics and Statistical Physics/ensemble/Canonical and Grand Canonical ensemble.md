@@ -3,7 +3,8 @@
 > 思路其实与微正则系统类似。唯一不同在于正则系统具有系统与外界热源的能量交换，因而会产生能量的波动涨落。最主要的
 
 
-首先是
+> [!info] 正则系综
+> 首先是
 $$E+E_{r}=E^{(0)}$$
 对于状态处在能量为$E_{s}$的状态s时，热源可处在能量为$E^{(0)}-E_{s}$的状态，并可表示微观状态数：
 $$\Omega_{r}(E^{(0)}-E_{s})$$
@@ -17,8 +18,6 @@ $$\ln \Omega_{r}(E^{(0)}-E_{s})=\ln \Omega_{r}(E_{0})+\frac{\partial\ln\Omega_{r
 由于本式第一项显然是一个常数，于是我们可以将$\rho_{s}$的正比表示得到：
 $$\rho_{s}\propto e^{-\beta E_{s}}$$
 $\rho_{s}\propto e^{-\beta E_{r}}$
-
-
 对于正则系综于是可以讨论$能量涨落$：
 $$\overline{(E-\overline{E})^2}=\sum_{s}\rho_{s}(E_{s}-\overline{E})^2=\overline{E^2}-(\overline{E})^2$$
 而对于正则分布情况又有：
@@ -28,6 +27,10 @@ $$\overline{(E-\overline{E})^2}=-\frac{\partial\overline{E}}{\partial \beta}=kT^
 这将能量的自发涨落与内能随温度的变化率即热容联系在一起，由于LHS永正，故而定容热容永正，在热力学中有提及系统的平衡稳定条件正是$C_{V}$恒正。
 另外由此可以给出能量的相对涨落：
 $$\frac{\overline{(E-\overline{E})^2}}{(\overline{E})^2}=\frac{kT^2C_{V}}{(\overline{E})^2}$$
+
+
+
+
 
 
 类似地我们容易讨论巨正则系综，它除去正则系综的特性之外，还与另一粒子源相关，即它的微观状态建立在能量为$E_{s}$的状态s时，粒子源与热源分别处在$N^{(0)}-N_{s}$与$E^{(0)}-E_{s}$，从而微观状态数可表示为：
@@ -43,10 +46,8 @@ $$\Xi=\sum_{N=0}^\infty \sum_{s}e^{-\alpha N-\beta E_{s}}$$
 
 
 
-
-
-在此基础上，我们讨论由巨正则系综理论推出的热力学公式：
-
+> [!info] 巨正则系综的热力学公式
+>在此基础上，我们讨论由巨正则系综理论推出的热力学公式：
 首先是平均粒子数：
 $$\overline{N}=\frac{1}{\Xi}\sum_{N=0}^\infty \sum_{s}Ne^{-\alpha N-\beta E_{s}}=\frac{1}{\Xi}\left( -\frac{\partial}{\partial \alpha} \right)\sum_{N=0}^\infty \sum_{s}e^{-\alpha N-\beta E_{s}}=\frac{1}{\Xi}\left( -\frac{\partial}{\partial \alpha} \right)\Xi=-\frac{\partial}{\partial \alpha}\ln\Xi$$
 类似地亦有内能，亦即能量E的统计平均值：
@@ -67,14 +68,11 @@ $\frac{\partial\overline{N}}{\partial \alpha}=-[\overline{N^2}-(\overline{N})^2]
 于是最后有：
 $$(\overline{N-\overline{N}})^2=-\frac{\partial\overline{N}}{\partial \alpha}=kT\left( \frac{\partial\overline{N}}{\partial \mu} \right)_{T,V}$$
 That's it.
-最后还有对实验表示的补充：![[Pasted image 20260912095111.png]]
-
-
-
 
 
 > [!info] axtra tips
 > [[relation between  microcanonical and canonical ensemble]]
+> 最后还有对实验表示的补充：![[Pasted image 20260912095111.png]]
 > 
 
 
