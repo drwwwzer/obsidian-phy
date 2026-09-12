@@ -2,7 +2,7 @@
 > [!abstract] 
 > 作为异相催化/界面催化动力学描述的基础，我们首先需要通过界面平衡来建立它的基本性质。
 >-  [[Quantum expression for the internal energy]]
-> - [[Concretization of Entropy]]
+> - [[Concretization of Entropy and sth needed]]
 
 
 在具体进入界面平衡的物理情形前，我们首先讲清楚所需的所有物理量。
