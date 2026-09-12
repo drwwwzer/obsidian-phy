@@ -30,12 +30,6 @@ $$\overline{(E-\overline{E})^2}=-\frac{\partial\overline{E}}{\partial \beta}=kT^
 $$\frac{\overline{(E-\overline{E})^2}}{(\overline{E})^2}=\frac{kT^2C_{V}}{(\overline{E})^2}$$
 
 
-
-> [!info] 巨正则系综
-> 
-
-
-
 类似地我们容易讨论巨正则系综，它除去正则系综的特性之外，还与另一粒子源相关，即它的微观状态建立在能量为$E_{s}$的状态s时，粒子源与热源分别处在$N^{(0)}-N_{s}$与$E^{(0)}-E_{s}$，从而微观状态数可表示为：
 $$\Omega_{r}(N^{(0)}-N_{s},E^{(0)}-E_{s})$$
 
@@ -62,8 +56,18 @@ $$\overline{Y}=\frac{1}{\Xi}\sum_{N}\sum_{s} \frac{\partial E}{\partial y}e^{-\a
 然后是同时考虑热力学第一定律/能量角度与$\ln 配分函数$的微分出发：
 一方面有$\beta\left( dU-Ydy+\frac{\alpha}{\beta}d\overline{N} \right)=-\beta d\left( \frac{\partial\ln\Xi}{\partial \beta} \right)+\frac{\partial\ln\Xi}{\partial y}dy-\alpha d\left( \frac{\partial}{\partial \alpha}\ln\Xi \right)$
 另外有$\ln\Xi(\alpha,\beta,y)$，写它的全微分：$d\ln\Xi=\frac{\partial\ln\Xi}{\partial \beta}d\beta+\frac{\partial\ln\Xi}{\partial \alpha}d\alpha+\frac{\partial\ln\Xi}{\partial y}dy$
-
-
+于是表示为：
+$$\beta\left( dU-Ydy+\frac{\alpha}{\beta}d\overline{N} \right )=d(\ln \Xi-\frac{\alpha \partial\ln\Xi}{\partial \alpha}- \frac{\beta\partial\ln\Xi}{\partial \beta})$$
+再比对开系的热力学基本方程:
+$$\frac{1}{T}(dU-Ydy-\mu dN)=dS$$
+然后有
+$$S=k(\ln \Xi-\frac{\alpha \partial\ln\Xi}{\partial \alpha}- \frac{\beta\partial\ln\Xi}{\partial \beta})$$
+与E的相对涨落相似地，有$(\overline{N-\overline{N}})^2=\overline{N^2}-(\overline{N})^2$与
+$\frac{\partial\overline{N}}{\partial \alpha}=-[\overline{N^2}-(\overline{N})^2]$
+于是最后有：
+$$(\overline{N-\overline{N}})^2=-\frac{\partial\overline{N}}{\partial \alpha}=kT\left( \frac{\partial\overline{N}}{\partial \mu} \right)_{T,V}$$
+That's it.
+最后还有对实验表示的补充：![[Pasted image 20260912095111.png]]
 
 
 
