@@ -21,4 +21,20 @@ $$S=-Nk_{B}T\ln\left( \frac{p}{p^\circ} \right)$$
 $$\Delta S_{12}=k_{B}\ln \frac{p_{2}}{p_{1}}$$
 类似地，对于理想稀溶液也有这样的推导过程：
 $$\Delta S_{12}=k_{B}\ln \frac{C_{2}}{C_{1}}$$
+> [!info] 
+> 建立在统计物理基础上，我们讨论化学势$\mu$
+
+对于固定温度压强不变/固定温度体积不变这一相对容易做到的实验条件，又根据勒让德（共轭变量）变换我们能够得到的等价热力学势函数，分别有：
+$$\mu_{i}=\left( \frac{\partial H}{\partial N_{i}} \right)_{T,p,N_{j\neq i}}$$
+$$\mu_{i}=\left( \frac{\partial F}{\partial N_{i}} \right)_{T,V,N_{j\neq i}}$$
+其中$H=U-TS+PV，F=U-TS$
+对于理想气体（Boltzmann）我们取第二条：
+又对于理想气体定域情况与满足经典极限的情况，$$F=-NkT\ln Z$$
+$$F=-NkT\ln Z+NkT\ln N!$$
+且对于经典情况$Z=\sum_{l} \omega_{l} e^{-\beta \epsilon_{l}}$
+于是有$$\mu=kT\ln\left[ \frac{N}{V} \right(\frac{h^2}{2\pi mkT})^{3/2}]$$
+同时对于理想气体，ln内容$\ll 1$，所以理想气体的化学势是负的。
+
+
+
 
