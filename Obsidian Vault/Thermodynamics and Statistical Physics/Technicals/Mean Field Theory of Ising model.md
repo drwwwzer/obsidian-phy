@@ -18,5 +18,25 @@ $$Z=\sum_{\left\{ \sigma_{i} \right\}}e^{-\beta E\{\sigma_{i}\}}=\sum_{\sigma_{1
 
 从伊辛本人的一维解到昂萨格的二维解，严格的解析解到此为止（是否？），而对于三维情形严格解尚未得到，我们在此讨论平均场近似，我们首先把整个能量形式改写为：
 $$E=-\mu B\sum_{i}\sigma_{i}-\frac{1}{2}\sum_{i,j}J_{ij}\sigma_{i}\sigma_{j}$$
-式中已做变换
+式中已做变换。
+
+
+
+然后我们来讨论作用于自旋i的力为：
+$$-\frac{\partial E}{\partial \sigma_{i}}=\mu B+\sum_{j}J_{ij}\sigma_{i}$$
+
+上式右方第一项代表外磁场，第二项代表近邻自旋对自旋i的作用，于是我们能写出作用于自旋i的等效磁场：
+
+
+$$B_{i}=B+\frac{1}{\mu}\sum_{j}J_{ij}\sigma_{j}$$
+同时注意，因为近邻自旋$\sigma_{j}$的取向可能会发生不断的变化，我们考虑因此$B_{i}$的涨落，由此我们需要考虑清楚其平均值：
+$$\overline{B_{i}}=B+\frac{1}{\mu}\sum_{j}J_{ij}\overline{\sigma}=B+\frac{1}{\mu}Jz\overline{\sigma_{i}}$$
+最后我们考虑清楚系统的平移不变性，有$\overline{\sigma_{j}}=\overline{\sigma_{i}};z$为近邻自旋数，取决于晶格的空间维数和结构，由于$\overline{\sigma_{i}}$与i无关，因而$\overline{B}$也与i无关，于是我们有：
+$$\overline{B}=B+\frac{1}{\mu}Jz\overline{\sigma_{i}}$$
+这就是在平均场近似中作用于各个自旋的等效磁场，
+它把近邻自旋对某个自旋的作用用平均场$Jz\overline{\sigma}/\mu$代替来忽略涨落。于是相互作用的自旋系统华为近独立的自旋系统。
+在这样的平均场近似下配分函数因此有：
+$$Z=$$
+
+
 
