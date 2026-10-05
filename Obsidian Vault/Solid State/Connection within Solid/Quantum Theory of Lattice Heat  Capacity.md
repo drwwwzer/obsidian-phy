@@ -8,7 +8,21 @@
 但对于很多材料，在低温情形下热容并不会随温度变化保持不变。这种特异情况的解释首先由爱因斯坦提出。
 根据量子理论，谐振子的能量本征值是量子化的：
 $$E_{j}=\left( n_{j}+\frac{1}{2} \right)\hbar \omega_{j}$$
-简谐近似下各简正坐标代表的振动相互独立，故而这些振子我们首先考虑它们作为近独立的子系存在/考虑正则系综理论直接写出它们能量的统计平均值：
+简谐近似下各简正坐标代表的振动相互独立，它们的简正性证明由此得到：[[]]
+故而这些振子我们首先考虑它们作为近独立的子系存在/考虑正则系综理论直接写出它们能量的统计平均值：
 $$\overline{E_{j}}=\frac{1}{2}\hbar \omega_{j}+\frac{\sum_{n_{j}}n_{j}\hbar\omega_{j}e^{-n_{j}\hbar\omega_{j}/k_{B}T}}{\sum_{n_{j}}e^{-n_{j}\hbar \omega_{j}/k_{B}T}}$$
-根据统计物理，取$\beta=\frac{1}{k_{B}T}$，我们可以改写上式为一个更
-它们的简正性证明由此得到：[[]]
+根据统计物理，取$\beta=\frac{1}{k_{B}T}$，我们可以改写上式为一个更容易表示的写法：
+$$\overline{E_{j}}=\frac{1}{2}\hbar \omega_{j}+\frac{\partial}{\partial \beta}\ln \sum_{n_{j}}e^{-n_{}\hbar \omega_{j}/k_{B}T}$$
+这里的求和式子容易求出：$\sum_{n_{j}}e^{-n_{}\hbar \omega_{j}/k_{B}T}=\frac{1}{1-e^{-\beta \hbar \omega_{j}}}$
+代入则有：
+$$\overline{E_{j}}(T)=\frac{1}{2}\hbar \omega_{j}+\frac{\hbar\omega_{j}e^{-\beta \hbar \omega_{j}}}{1-e^{-\beta \hbar \omega_{j}}}=\frac{1}{2}\hbar \omega_{j}+\frac{\hbar\omega_{j}}{e^{\beta\hbar \omega_{j} }-1}$$
+前一项即为零点能，后一项代表平均热能。
+于是我们容易得到热容表达式：
+$$\frac{d\overline{E_{j}}T}{dT}=k_{B} \frac{\left( \frac{\hbar\omega_{j}}{k_{B}T} \right)^2e^{\hbar\omega_{j}/k_{B}T}}{(e^{\hbar \omega_{j}/k_{B}T}-1)^2}$$
+主要的区别在于，这展示出了量子理论值与振动频率有关。
+对于高温极限的情况，$k_{B}T\gg \hbar \omega_{j},亦即 \frac{\hbar\omega}{k_{B}T}\ll1$
+我们有$\frac{d\overline{E_{j}}}{dT}=k_{B} \frac{\left( \frac{\hbar\omega}{k_{B}T} \right)^2\left( 1+\frac{\hbar\omega_{j}}{k_{B}T}+\dots \right)}{\left[ \frac{\hbar\omega_{j}}{k_{B}T}+\frac{1}{2}\left( \frac{\hbar\omega_{j}}{k_{B}T} \right)^2+\dots \right]^2}=k$
+这很自然，因为当振子的能量远远大于能量子$\hbar \omega$时，量子化效应就会小得可以忽略（是因为远大于零点能吗？）
+
+
+
