@@ -9,5 +9,6 @@
 根据量子理论，谐振子的能量本征值是量子化的：
 $$E_{j}=\left( n_{j}+\frac{1}{2} \right)\hbar \omega_{j}$$
 简谐近似下各简正坐标代表的振动相互独立，故而这些振子我们首先考虑它们作为近独立的子系存在/考虑正则系综理论直接写出它们能量的统计平均值：
-$$$$
+$$\overline{E_{j}}=\frac{1}{2}\hbar \omega_{j}+\frac{\sum_{n_{j}}n_{j}\hbar\omega_{j}e^{-n_{j}\hbar\omega_{j}/k_{B}T}}{\sum_{n_{j}}e^{-n_{j}\hbar \omega_{j}/k_{B}T}}$$
+根据统计物理，取$\beta=\frac{1}{k_{B}T}$，我们可以改写上式为一个更
 它们的简正性证明由此得到：[[]]
