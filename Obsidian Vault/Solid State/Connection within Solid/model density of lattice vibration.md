@@ -7,7 +7,11 @@ $$g(\omega)=\lim_{ \Delta \omega \to 0} \frac{\Delta n}{\Delta\omega} $$
 $$\Delta n=\frac{V}{(2\pi)^3}\int dsdq$$
 且
 $$\Delta \omega=dq|\nabla_{q}\omega(q)|$$
-于是
+于是代入有模式密度的一般表达式：
+$$g(\omega)=\frac{V}{(2\pi)^3}\int \frac{dS}{|\nabla_{q} \omega(q)|}$$
+具体而言，我们首先计算一维
+
+
 
 
 
