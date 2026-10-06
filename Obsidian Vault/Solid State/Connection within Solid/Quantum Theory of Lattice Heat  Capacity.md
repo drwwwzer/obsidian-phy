@@ -77,5 +77,12 @@ $$\omega_{m}=\overline{C}\left[ 6\pi^2\left( \frac{N}{V} \right) \right]^{1/3}$$
 由此我们可以得到热容表达式：
 $$C_{V}(T)=\frac{3k_{B}V}{2\pi^2\overline{C}^3} \int^{{\omega_{m}}}_{0} \frac{\left( \frac{\hbar\omega}{k_{B}T} \right)^2e^{\hbar\omega/k_{B}T}}{(e^{\hbar \omega/k_{B}T}-1)^2}\omega^2d\omega$$
 于是有：
-$$C_{V}(T)=9R\left( \frac{1}{\omega_{m}} \right)^3\int^{\omega_{m}}_{0}(\hbar\omega)$$
+$$C_{V}(T)=9R\left( \frac{1}{\omega_{m}} \right)^3\int^{\omega_{m}}_{0} \frac{\left( \frac{\hbar\omega}{k_{B}T} \right)^2e^{\hbar\omega/k_{B}T}}{(e^{\hbar \omega /k_{B}T}-1)^2}\omega^2d\omega =9R\left( \frac{kT}{\hbar \omega_{m}} \right)^3\int^{\hbar \omega_{m/k_{B}T}} \frac{\xi^4e^\xi}{(e^\xi-1)^2}d\xi$$
+其中$R=Nk_{B}$，$\xi=\frac{\hbar\omega}{k_{B}T}$
+由此，我们观察到德拜热容函数只包含一个参数$\omega_{m}$，另外我们可以
+$$\Theta_{D}=\frac{\hbar\omega_{m}}{k_{B}}$$
+于是有德拜热容的表达式：
+$$9R\left( \frac{T}{\Theta_{D}} \right)^3\int^{ \Theta_{D}/T } \frac{\xi^4e^\xi}{(e^\xi-1)^2}d\xi$$
+德拜热容的低温极限特别有意义，。正如前述在一定的温度下，
+德拜热容在低温的极限是严格成立的。
 
