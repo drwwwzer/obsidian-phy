@@ -4,6 +4,8 @@
 首先我们给出频率分布函数的定义：
 $$g(\omega)=\lim_{ \Delta \omega \to 0} \frac{\Delta n}{\Delta\omega} $$
 于是我们可以表示出在q空间中单位频率振动模式的数量：
+$$\Delta n=\frac{V}{(2\pi)^3}\int dsdq$$
+
 
 
 
