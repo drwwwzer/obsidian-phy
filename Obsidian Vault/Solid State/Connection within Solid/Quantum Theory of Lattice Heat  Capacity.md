@@ -52,6 +52,28 @@ $$C_{V}(T)=k_{B} \frac{\int\left( \frac{\hbar\omega}{k_{B}T} \right)^2e^{\hbar\o
 
 
 由此能求到德拜模型晶体的频率分布函数。
+对于弹性波有纵波：
+$$\omega=C_{l}q$$
+对于弹性波有横波：
+$$\omega=C_{t}q$$
 我们首先考虑纵波的情况，对于从$\omega$到$\omega+d\omega$内的纵波，波数容易写出：
-$$q=\frac{\omega}{C_{l}}$$
+$$q=\frac{\omega}{C_{l}}\to q+dq=\frac{\omega+d\omega}{C_{l}}$$
+我们讨论在$q$空间中占据着半径为$q$，厚度为$dq$的球壳，从球壳体积与$q$的分布密度$\frac{V}{(2\pi)^3}$得到纵波的数目为：
+$$\frac{V}{(2\pi)^3}4\pi q^2dq=\frac{V}{2\pi^2C^3_{l}}\omega^2d\omega$$
+类似地可写出横波的数目：
+$$2*\frac{V}{2\pi^2C^3_{t}}\omega^2d\omega$$
+于是我们就能得到总的频率分布：
+$$g(\omega)=\frac{3V}{2\pi^2\overline{C^3}}\omega^2$$
+然后热容处理可以平均。其中有：
+$$\frac{1}{\overline{C}^3}=\frac{1}{3}\left( \frac{1}{C^3_{l}}+\frac{2}{C^3_{t}} \right)$$
+根据弹性理论，$\omega$可取从0到$\infty$的任意值，它们对应于无限长到任意短的波，显然对于这样的振动模积分有无限数目（理想连续介质理所应当）。然而实际晶体是由原子组成的，如果晶体包括N个原子，自由度就有3N个。这尤其体现了德拜模型的局限性。
+这种局限性容易得到其适用范围：当波长远远大于微观尺度时，德拜宏观处理的方法理应适用，然而当波长与微观可比时以上宏观模型将有谬误。
+
+德拜的处理方法是假设$\omega$大于某一$\omega_{m}$的短波实际上是不存在的，而以下的情况均能应用弹性波的近似。
+当然，这种假设的上限如何确定也成为了至关重要的一点——我们可以由实际晶格的自由度确定如下：
+$$\int^{\omega_{m}}_{0}g(\omega)d\omega=\frac{3V}{2\pi^2\overline{C}^3}\int^{\omega_{m}}_{0}\omega^2d\omega=3N$$
+由此我们可以得到这个上限：
+$$\omega_{m}=\overline{C}\left[ 6\pi^2\left( \frac{N}{V} \right) \right]^{1/3}$$
+由此我们可以得到热容表达式：
+$$C_{V}(T)=\frac{3k_{B}V}{2\pi^2\overline{C}^3} \int^{{\omega_{m}}}_{0} \frac{\left( \frac{\hbar\omega}{k_{B}T} \right)^2e^{\hbar\omega/k_{B}T}}{(e^{\hbar \omega/k_{B}T}-1)^2}\omega^2d\omega$$
 
