@@ -54,3 +54,4 @@ $$g(\omega)=\frac{L}{2\pi} \frac{1}{2cq} *2=\frac{L}{2\pi \sqrt{ c }}\omega^{-1/
 
 
 
+
