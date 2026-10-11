@@ -89,3 +89,7 @@ $$9R\left( \frac{T}{\Theta_{D}} \right)^3\int^{ \Theta_{D}/T } \frac{\xi^4e^\xi}
 
 最主要的点在于晶体与非晶体振动模式密度的不同频谱图。
 
+![[Pasted image 20261011131823.png]]
+晶体来讲，锐利结构是与范霍夫节点相关的。而非晶体而言，它会变得圆滑。
+![[Pasted image 20261011131833.png]]
+拉曼光谱
