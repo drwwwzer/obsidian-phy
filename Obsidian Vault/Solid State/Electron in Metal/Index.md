@@ -33,7 +33,14 @@ $$\frac{\partial f}{\partial E}=\frac{1}{k_{B}T} \frac{1}{(e^{E-E_{F/k_{B}T}}+1)
 这个函数具有类似$\delta$函数的性质。于是我们可以将原式变为：
 $$N=\int^{\infty}_{-\infty}Q(E)\left( -\frac{\partial f}{\partial E} \right)dE$$
 另一方面，对$Q(E)$在$E_{F}$附近展开为无穷级数，于是有：
-$$N=Q(E_{F})\int^{\infty }_{-\infty}\left( -\frac{\partial f}{\partial E} \right)dE+Q'(E)\int^{\infty}_{-\infty }(E-E_{F})\left( -\frac{\partial f}{\partial E} \right)dE+\frac{1}{2}Q''(E_{F})\int^{\infty}_{-\infty}(E-E_{F})^2$$
+$$N=Q(E_{F})\int^{\infty }_{-\infty}\left( -\frac{\partial f}{\partial E} \right)dE+Q'(E)\int^{\infty}_{-\infty }(E-E_{F})\left( -\frac{\partial f}{\partial E} \right)dE+\frac{1}{2}Q''(E_{F})\int^{\infty}_{-\infty}(E-E_{F})^2\left( -\frac{\partial f}{\partial E} \right)dE+\dots$$
+第一项积分为$f(-\infty)-f(\infty)=1$，第二项由于近$\delta$性质为0。为了处理第三项的积分，我们设$\xi=\frac{E-E_{F}}{k_{B}T}$
+结果即为：
+$$N=Q(E_{F})+\frac{(k_{B}T)^2}{2}Q''(E_{F})\int^{\infty}_{-\infty} \frac{\xi^2d\xi}{(e^{\xi}+1)(e^{-\xi}+1)}=\frac{\pi^2}{3}$$
+因此有：
+$$N=Q(E_{F})+\frac{\pi^2}{6}Q''(E_{F})(k_{B}T)^2+O(k_{B}T)$$
+显而易见地在0K近似下：
+$$N=Q(E_{F}^0)$$
 
 
 
