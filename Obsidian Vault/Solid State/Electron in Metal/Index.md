@@ -14,6 +14,26 @@
 - $$\mu=\frac{\partial G}{\partial N}$$
 这意味着，化学势在0K时的定义就是电子填充时导致的吉布斯自由能变化，因而也就是此时电子所能填充的唯一且最高的能级——费米能级。
 在这个意义上，它们是同一的。
+此时费米能由$N=\int^{E_{F}^0}_{0}N(E)dE$确定。
+
+更进一步我们来讨论有限温度T的情况：
+首先表示有限温度下的电子数量：
+$$dN=f(E(k))\frac{V}{(2\pi)^3}dk$$
+然后确定费米能，具体而言，费米能$E_{F}$可以由系统中的电子总数$N$表示为：$\sum_{i}f(E_{i})=N$。
+对于有限能量情形，决定式为：
+$$N=\int^{\infty}_{0}f(E)N(E)dE$$
+为了方便起见，同时也表示$E$一下量子态的总数，我们引入$Q(E)$表示,并对决定式做分部积分：
+$$Q(E)=\int^{E}_{0}N(E)dE$$
+$$N=[f(E)N(E)]|_{0}^{\infty}-\int^{\infty}_{0} Q(E)\left( \frac{\partial f}{\partial E} \right)dE$$
+第一项显然为零，因为$E$和$f(E)$分别在$E \to0$与$E \to \infty$取得0。
+因此原式变为：
+$$N=\int^{\infty}_{0}Q(E)\left( -\frac{\partial f}{\partial E} \right)dE$$
+这个形式可以通过对$（\frac{\partial f}{\partial E}）$的操作近似积分。
+$$\frac{\partial f}{\partial E}=\frac{1}{k_{B}T} \frac{1}{(e^{E-E_{F/k_{B}T}}+1)((e^-{E-E_{F/k_{B}T}}+1))}$$
+这个函数具有类似$\delta$函数的性质。于是我们可以将原式变为：
+$$N=\int^{\infty}_{-\infty}Q(E)\left( -\frac{\partial f}{\partial E} \right)dE$$
+另一方面，对$Q(E)$在$E_{F}$附近展开为无穷级数，于是有：
+$$N=Q(E_{F})\int^{\infty }_{-\infty}\left( -\frac{\partial f}{\partial E} \right)dE+Q'(E)\int^{\infty}_{-\infty }(E-E_{F})\left( -\frac{\partial f}{\partial E} \right)dE+\frac{1}{2}Q''(E_{F})\int^{\infty}_{-\infty}(E-E_{F})^2$$
 
 
 
